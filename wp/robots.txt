@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /deposit-method/*
+Disallow: /jogos/*
+Disallow: /deposit-method/*
+Disallow: /currency/*
+Disallow: /vendor/*
+Disallow: /category/*
+Disallow: /license/*
+Disallow: /device/*
+Disallow: /author/*
