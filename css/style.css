@@ -2565,6 +2565,7 @@ font-size: 21px;
         font-size: 14px;
     }
     .lazertag-showcase ul{
+        text-align: left;
         padding-left: 0;
     }
     .lazertag-showcase li {
@@ -2673,3 +2674,313 @@ flex-direction: column;
         background-size: 60%;
     }
 }
+.vipusk h1 {
+    font-family: "Unbounded", serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+.vipusk .baner-showcase__txt {
+    text-align: center;
+    max-width: 70%;
+    font-size: 24px;
+}
+/* .home__baner::before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    background: red;
+    top: 0;
+    left: 0;
+} */
+ #detsad_prog > .container > .animation_item__info span, #school_prog > .container > .animation_item__info span {
+    border: 1.5px solid var(--color-orange);
+ }
+ .animation_item__left > img {
+    border-radius: 30px;
+ }
+ .animation_item__other {
+gap: 0!important;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start !important;
+}
+.animation_item__head {
+    font-weight: 600;
+    font-size: 30px;
+}
+.animation_item__head span {
+    font-weight: 800;
+}
+.animation_item__subhead {
+    font-weight: 400;
+}
+.white {
+    color: var(--color-black);
+    background: var(--color-white);
+}
+.bron .contact_us-btn {
+
+    padding: 16px 20px;
+}
+#detsad_prog > .container > .animation_item__info, #school_prog > .container > .animation_item__info{
+    margin-bottom: 20px;
+}
+@media (max-width:1366px) {
+    .animation_item__head {
+        
+        font-size: 30px;
+    }
+    .animation_item__subhead {
+        font-size: 17px;
+    }
+    .contact_us__wrapper-groupbtn  img {
+        max-width: 40px;
+    }
+    .bron-left img {
+        max-width: 100%;
+    }
+    .contact_us-btn {
+        font-size: 18px;
+        padding: 6px 7px;
+    }
+}
+@media (max-width: 1280px) {
+    .animation_item__btn {
+        margin-bottom: auto;
+        width: max-content;
+        display: flex
+;
+        font-size: 16px;
+        font-weight: 500;
+        color: var(--color-white);
+        background: var(--color-orange);
+        border-radius: 10px;
+        padding: 12px 20px;
+        transition: all 0.5s;
+    }
+    .white {
+        color: var(--color-black)!important;
+        background: var(--color-white)!important;
+    }
+    .vipusk .baner-showcase__txt {
+     
+        font-size: 16px;
+    }
+    .contact_us__wrapper-groupbtn > a > img {
+        max-width: 50px;
+    }
+    .bron .contact_us-btn {
+        padding: 16px 9px;
+    }
+    .contact_us-btn {
+        font-size: 16px;
+        display: flex
+        ;
+                font-size: 16px;
+                align-items: center;
+    }
+    .flex > .animation_item__btn {
+        text-align: center;
+        display: flex
+;
+        width: 43%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .jc {
+        justify-content: center;
+    }
+}
+@media (max-width:768px) {
+    .animation_item__head {
+        font-weight: 800;
+        font-size: 20px;
+    }
+    .animation_item__subhead {
+        font-size: 14px;
+    }
+    #detsad_prog .animation_item__info span, #school_prog .animation_item__info span {
+        border: 1px solid var(--color-black);
+        font-size: 14px;
+        padding: 9px 15px;
+    }
+    #detsad_prog > .container > .animation_item__info > span, #school_prog > .container > .animation_item__info > span {
+        border: 1px solid var(--color-orange);
+        font-size: 18px;
+   
+    }
+    .vipusk h1 {
+        font-family: "Unbounded", serif;
+        font-weight: 500;
+        font-size: 28px;
+    }
+    .vipusk .baner-showcase__txt {
+       
+        font-size: 18px;
+    }
+    .vipusk .baner-showcase__txt {
+        max-width: 100%;
+    }
+    .schema-btn {
+        font-size: 18px;
+    }
+}
+.corporate_wrapper {
+    margin-top:40px;
+}
+.pizza__baner {
+    position: relative;
+    max-height: 600px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0 245px 50px;
+    background-image: url(/img/pizza/pizza-bg.jpg);
+    /* filter: brightness(0.75); */
+}
+
+.pizza_banner {
+    position: relative;
+    margin-top: 40px;
+}
+
+.pizza_photo {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    content: "";
+    position: absolute;
+    background-image: url(/img/pizza/pizza-photo.png);
+    right: 0px;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: 38%;
+    background-position: 100% 86%;
+}
+@media (min-width:1696px) { 
+    .pizza_photo {
+    background-size: 28%;
+}
+}
+@media (max-width:1366px) { 
+    .pizza_photo {
+    background-size: 48%;
+}
+}
+.pizza__baner h1 {
+    padding-top: 100px;
+    color: var(--color-white);
+}
+.pizza__baner span {
+    padding-top: 10px;
+    display: block;
+font-weight: 500;
+color: var(--color-white);
+font-size: 24px;
+max-width: 50%;
+}
+.z2 {
+    position: relative;
+    z-index: 2;
+}
+.mt45 {
+    margin-top: 45px;
+}
+.about_pizza p {
+    font-size: 24px;
+}
+#about_pizza > .container > p:last-child
+{
+    padding-top: 15px;
+}
+#pizza_price > div {
+    display: flex;
+    gap: 42px;
+}
+#pizza_price  img {
+    border-radius: 40px;
+}
+#about_pizza {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#about_pizzeriya {
+    margin: 60px 0;
+}
+#about_pizzeriya > .container {
+    display: flex;
+    gap: 42px;
+}
+#about_pizzeriya  img {
+    border-radius: 30px;
+}
+#about_pizzeriya > .container > div {
+   width: 50%;
+}
+#about_pizzeriya > .container > div:last-child {
+    padding-left: 40px;
+    width: 50%;
+    display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+
+ }
+ @media (max-width:768px) {
+    .pizza__baner {
+
+        padding: 30px 20px 205px 20px;
+   
+    }
+    .pizza__baner span {
+        padding-top: 10px;
+   
+        font-weight: 500;
+        font-size: 14px;
+        max-width: 100%;
+    }
+    .pizza__baner h1 {
+        max-width: 90%;
+        padding-top: 20px;
+        color: var(--color-white);
+    }
+    .z2 > img {
+        max-width: 90px;
+    }
+    .pizza_photo {
+        background-size: 60%;
+        background-position: 100% 100%;
+    }
+.about_pizza p {
+    font-size: 14px;
+}
+#about_pizza h2 {
+    padding-bottom: 10px;
+}
+#pizza_price > div {
+  flex-direction: column;
+  gap: 15px;
+}
+#about_pizzeriya > .container {
+    flex-direction: column;
+    gap: 15px;
+}
+#about_pizzeriya > .container > div {
+    width: 100%;
+}
+#about_pizzeriya > .container > div:last-child {
+    padding-left: 0;
+    width: 100%;
+  
+}
+#about_pizzeriya {
+    margin: 30px 0;
+}
+.pizza_banner {
+    padding-bottom: 60px;
+}
+ }
