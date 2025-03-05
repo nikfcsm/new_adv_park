@@ -218,6 +218,17 @@ h2 {
 h2 span {
     color: var(--color-orange);
 }
+h3 {
+    font-family: "Unbounded", serif;
+
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 120%;
+}
+
+h3 span {
+    color: var(--color-orange);
+}
 header {
     position: relative;
 }
@@ -1003,7 +1014,7 @@ background: var(--color-black);
             font-size: 40px;
         }
         .about_us__facts {
-            font-size: 15px;
+            font-size: 12px;
         }
         .about6_left img {
             max-width: 31px;
@@ -1427,7 +1438,21 @@ background: var(--color-black);
       .bloc-icon img {
         width: 30px;
       }
-      @media (min-width: 767px) {
+      @media (max-width:1366px) {
+        .about_us__wrapper span {
+      
+            font-size: 50px;
+        }
+        .about6_left img {
+            max-width: 37px;
+        }
+      }
+      @media (max-width: 1280px) {
+        .about_us__wrapper span {
+            font-size: 37px;
+        }
+    }
+      @media (max-width: 767px) {
         .mobile-nav {
         display: none;
         }
@@ -1445,7 +1470,7 @@ background: var(--color-black);
 
       @media (max-width: 1280px) {
         .about6_left img {
-            max-width: 33px;
+            max-width: 21px;
         }
         .about3 {
             padding: 40px 30px;
@@ -2984,3 +3009,165 @@ max-width: 50%;
     padding-bottom: 60px;
 }
  }
+ .showcase_left-width {
+
+    width: 64%;
+}
+
+.showcase_right-width {
+
+    width: 37%;
+}
+
+.mb60 {
+    margin-bottom: 60px;
+}
+.showcase_right-width::after {
+    content: "";
+}
+.place-icon {
+    margin: 10px 0;
+    background: url(/img/location.svg) no-repeat left top;
+}
+.place-icon span {
+    display: block;
+    color: var(--color-menu);
+    font-weight: 500;
+    font-size: 18px;
+}
+.go-road > img {
+    position: relative;
+    transition: all 0.5s;
+}
+.go-road:hover img{
+    transform: scale(1.05);
+}
+@media (max-width:768px) {
+    .showcase_right-width {
+        width: 100%;
+    }
+    .showcase_left-width {
+
+        width: 100%;
+    }
+    .place-icon span {
+    
+        font-size: 16px;
+    }
+    .place-icon {
+        margin: 30px 0 20px 0;
+    }
+    .go-road > img {
+        max-width: 230px;
+    }
+}
+#pitanie_wrapper .celebration_item span {
+    letter-spacing: -0.75px;
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 500;
+}
+#pitanie_wrapper {
+    margin-top: 30px;
+}
+.pitanie_heading {
+   margin-top: 10px;
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--color-black);
+    line-height: 120%;
+}
+.pitanie_descr {
+    color: var(--color-menu);
+    font-weight: 600;
+    font-size: 20px;
+}
+.pitanie_item__btn {
+    margin-bottom: auto;
+    width: max-content;
+    display: flex
+;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--color-white);
+    background: var(--color-orange);
+    border-radius: 10px;
+    padding: 15px 25px;
+    transition: all 0.5s;
+}
+.pitanie_item__btn:hover {
+    transform: scale(1.05);
+}
+.mt15 {
+    margin-top: 15px;
+}
+.pitanie_item img {
+    border-radius: 20px;
+}
+.pitanie_wrapper {
+    display: flex;
+    gap: 30px;
+}
+#pitanie_wrapper h3 {
+    padding-bottom: 20px;
+}
+.pitanie_wrapper {
+       margin-bottom: 70px;
+}
+@media (max-width:1366px) {
+    #pitanie_wrapper .celebration_item span {
+        letter-spacing: -0.75px;
+        color: var(--color-white);
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+}
+@media (max-width:1280px) {
+    #pitanie_wrapper .celebration_wrapper {
+        flex-wrap: wrap;
+    }
+    #pitanie_wrapper .celebration_item {
+        width: 48%;
+    }
+}
+@media (max-width: 1024px) {
+    .celebration_wrapper {
+        flex-direction: row;
+    }
+}
+@media (max-width:768px) {
+    .celebration_wrapper {
+        flex-direction: column;
+    }
+    #pitanie_wrapper .celebration_item {
+        width: max-content;
+    }
+    #pitanie_wrapper .celebration_item {
+        padding: 20px 34px 20px 25px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    h3 span{
+        display: block;
+    }
+    .pitanie_wrapper {
+        gap: 20px;
+        margin-bottom: 30px;
+        flex-direction: column;
+    }
+    .pitanie_item {
+        width: 100%;
+    }
+    .pitanie_heading {
+        font-size: 20px;
+    }
+    .pitanie_descr {
+        font-weight: 500;
+        font-size: 16px;
+    }
+    #pitanie_wrapper h3 {
+        padding-bottom: 15px;
+    }
+}

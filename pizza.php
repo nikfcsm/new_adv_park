@@ -9,7 +9,7 @@
             <span>Mosca – это частица Италии,которую мы любим всем сердцем!
                 Именно поэтому мы привезли для вас лучшие рецепты настоящей итальянской пиццы!</span>
             <div class="mt45">
-                <a href="#zayavka" class="animation_item__btn">Посмотреть меню</a>
+                <a href="#zayavka" class="pitanie_item__btn ">Посмотреть меню</a>
             </div>
             </div>
         </div>
