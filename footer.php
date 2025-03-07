@@ -73,7 +73,7 @@
 
         </div>
     </footer>
-    <nav class="mobile-nav">
+    <nav class="mobile-nav d-pc-none">
         <a href="/uslugi.html" class="bloc-icon">
             <img src="/img/mob-menu_item1__ico.svg" alt="">
             <span>Услуги</span>
